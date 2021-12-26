@@ -23,6 +23,7 @@ int main(int arg,char  *argv[]){
 			}
 			fprintf(ff,"\nquit\n");
 			fclose(ff);
+			fclose(f);
 			system("cat /tmp/data.in | bc ");
 		}	
 	}
